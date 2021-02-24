@@ -15,17 +15,17 @@ const InfoLayout = ({ url, size, image }) => {
       <Link href={url.github}>
         <a style={{ color: 'black' }}>
           <GithubOutlined style={{ fontSize: '20px', marginTop: '13px' }} />
+          <font style={{ paddingLeft: '10px', fontFamily: '맑은 고딕' }}>{url.github}</font>
         </a>
       </Link>
-      <font style={{ paddingLeft: '10px' }}>{url.github}</font>
 
       <br />
       <Link href={`mailto:${url.mail}`}>
         <a style={{ color: 'black' }}>
           <MailOutlined style={{ fontSize: '20px', marginTop: '15px' }} />
+          <font style={{ paddingLeft: '10px', fontFamily: '맑은 고딕' }}>{url.mail}</font>
         </a>
       </Link>
-      <font style={{ paddingLeft: '10px' }}>{url.mail}</font>
     </Col>
   );
 };
