@@ -20,7 +20,7 @@ const InfoLayout = ({ url, size, image }) => {
       <font style={{ paddingLeft: '10px' }}>{url.github}</font>
 
       <br />
-      <Link href={url.mail}>
+      <Link href={`mailto:${url.mail}`}>
         <a style={{ color: 'black' }}>
           <MailOutlined style={{ fontSize: '20px', marginTop: '15px' }} />
         </a>
