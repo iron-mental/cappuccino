@@ -10,22 +10,34 @@ const InfoLayout = ({ url, size, image }) => {
           <img src={image.logo} width="100px" height="60px" />
         </a>
       </Link>
-
       <br />
+
       <Link href={url.github}>
         <a style={{ color: 'black' }}>
           <GithubOutlined style={{ fontSize: '20px', marginTop: '13px' }} />
           <font style={{ paddingLeft: '10px', fontFamily: '맑은 고딕' }}>{url.github}</font>
         </a>
       </Link>
-
       <br />
+
       <Link href={`mailto:${url.mail}`}>
         <a style={{ color: 'black' }}>
           <MailOutlined style={{ fontSize: '20px', marginTop: '15px' }} />
           <font style={{ paddingLeft: '10px', fontFamily: '맑은 고딕' }}>{url.mail}</font>
         </a>
       </Link>
+      <br />
+      <br />
+
+      <font style={{ fontFamly: '맑은 고딕', color: 'gray' }}>
+        <Link href={url.terms}>
+          <a style={{ color: 'gray' }}>이용 약관</a>
+        </Link>
+        {' | '}
+        <Link href={url.privacy}>
+          <a style={{ color: 'gray' }}>개인정보 취급 방침</a>
+        </Link>
+      </font>
     </Col>
   );
 };
