@@ -7,7 +7,7 @@ const CustomCol = ({ size, style, children }) => {
         <Col xs={size.in.side.mx} sm={size.in.side.sm} md={size.in.side.md} />
         {children instanceof Array ? children[0] : children}
         <Col xs={size.in.side.mx} sm={size.in.side.sm} md={size.in.side.md} />
-        {children.length > 1 && children[1]}
+        {children instanceof Array && children.length > 1 && children[1]}
       </Row>
     </Col>
   );

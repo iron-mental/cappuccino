@@ -6,20 +6,14 @@ import MenuLayout from './MenuLayout';
 import InfoLayout from './InfoLayout';
 import CustomCol from './CustomCol';
 
-import FirstWebView from './pc/First';
-import SecondWebView from './pc/Second';
-import ThirdWebView from './pc/Third';
-
-import FirstMobileView from './mobile/First';
-import SecondMobileView from './mobile/Second';
-import ThirdMobileView from './mobile/Third';
-
 const url = {
   main: 'https://www.terminal-study.tk/main',
   appStore: 'https://apps.apple.com/kr/app/pangyojangteo/id1018769995?l=ko&ls=1',
   playStore: 'https://play.google.com/store/apps/details?id=com.towneers.www',
   github: 'https://github.com/iron-mental',
   mail: 'team.ironmental@gmail.com',
+  terms: 'https://www.terminal-study.tk/terms',
+  privacy: 'https://www.terminal-study.tk/privacy',
 };
 
 const image = {
@@ -56,23 +50,8 @@ const AppLayout = ({ children }) => {
         <CustomCol size={size} style={{}}>
           <MenuLayout url={url} size={size} image={image} />
         </CustomCol>
-
-        <CustomCol size={size} style={{ background: '#FBF7F2', height: '600px' }}>
-          <FirstWebView size={size} />
-          <FirstMobileView />
-        </CustomCol>
-
-        <CustomCol size={size} style={{ background: 'white', height: '600px' }}>
-          <SecondWebView size={size} />
-          <SecondMobileView />
-        </CustomCol>
-
-        <CustomCol size={size} style={{ background: '#F7F8FA', height: '600px' }}>
-          <ThirdWebView size={size} />
-          <ThirdMobileView />
-        </CustomCol>
-
-        <CustomCol size={size} style={{ background: '#F4F4F4', height: '200px' }}>
+        {children}
+        <CustomCol size={size} style={{ background: '#F4F4F4', height: '250px' }}>
           <InfoLayout url={url} size={size} image={image} />
         </CustomCol>
       </Row>
