@@ -56,22 +56,7 @@ const AppLayout = ({ children }) => {
         <CustomCol size={size} style={{}}>
           <MenuLayout url={url} size={size} image={image} />
         </CustomCol>
-
-        <CustomCol size={size} style={{ background: '#FBF7F2', height: '600px' }}>
-          <FirstWebView size={size} />
-          <FirstMobileView />
-        </CustomCol>
-
-        <CustomCol size={size} style={{ background: 'white', height: '600px' }}>
-          <SecondWebView size={size} />
-          <SecondMobileView />
-        </CustomCol>
-
-        <CustomCol size={size} style={{ background: '#F7F8FA', height: '600px' }}>
-          <ThirdWebView size={size} />
-          <ThirdMobileView />
-        </CustomCol>
-
+        {children}
         <CustomCol size={size} style={{ background: '#F4F4F4', height: '200px' }}>
           <InfoLayout url={url} size={size} image={image} />
         </CustomCol>
