@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import CustomCol from '../components/CustomCol';
 import TermsText from '../components/terms/Terms';
 
@@ -28,9 +29,10 @@ const size = {
 const Terms = () => {
   return (
     <div>
-      <head>
-        <title>Terms</title>
-      </head>
+      <Head>
+        <title>이용약관</title>
+      </Head>
+
       <CustomCol size={size} style={{ background: '#FBF7F2', height: 'auto' }}>
         <Col xs={size.in.center.mx} sm={size.in.center.sm} md={size.in.center.md} align="left">
           <TermsText />
