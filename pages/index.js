@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Head from 'next/head';
 import CustomCol from '../components/CustomCol';
 
 import FirstWebView from '../components/pc/First';
@@ -34,6 +35,10 @@ const size = {
 const Home = () => {
   return (
     <div>
+      <Head>
+        <title>Terminal</title>
+      </Head>
+
       <CustomCol size={size} style={{ background: '#FBF7F2', height: '600px' }}>
         <FirstWebView size={size} />
         <FirstMobileView />
