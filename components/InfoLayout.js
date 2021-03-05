@@ -31,11 +31,11 @@ const InfoLayout = ({ url, size, image }) => {
 
       <font style={{ fontFamly: '맑은 고딕', color: 'gray' }}>
         <Link href={url.terms}>
-          <a style={{ color: 'gray' }}>이용 약관</a>
+          <a style={{ color: 'gray' }}>이용약관</a>
         </Link>
         {' | '}
         <Link href={url.privacy}>
-          <a style={{ color: 'gray' }}>개인정보 취급 방침</a>
+          <a style={{ color: 'gray' }}>개인정보 처리방침</a>
         </Link>
       </font>
     </Col>
