@@ -8,7 +8,7 @@ import CustomCol from './CustomCol';
 
 const url = {
   main: 'https://www.terminal-study.tk/main',
-  appStore: 'https://apps.apple.com/us/app/id1557178596',
+  appStore: 'https://apps.apple.com/app/id1557178596',
   playStore: 'https://play.google.com/store',
   github: 'https://github.com/iron-mental',
   mail: 'team.ironmental@gmail.com',
