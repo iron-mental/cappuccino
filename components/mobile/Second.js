@@ -4,14 +4,14 @@ const SecondMobileView = () => {
   return (
     <Col xs={24} sm={24} md={0} align="center">
       <b>
-        <h2 style={{ whiteSpace: 'nowrap', fontFamily: '맑은 고딕', marginTop: '60px' }}>
+        <h2 style={{ whiteSpace: 'nowrap', fontFamily: '맑은 고딕', marginTop: '40px' }}>
           멤버들과
           <br />
           소통하는 공간
           <br />
         </h2>
       </b>
-      <img src="/web/mobile/chat.JPG" style={{ width: '250px', height: '375px', marginTop: '20px' }} />
+      <img src="/web/mobile/second.PNG" style={{ width: '240px', height: '395px', marginTop: '20px' }} />
       <font style={{ whiteSpace: 'nowrap', fontFamily: '맑은 고딕', fontSize: '10px' }}>
         {' '}
         <br />
