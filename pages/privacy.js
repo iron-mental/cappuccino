@@ -33,7 +33,7 @@ const Terms = () => {
         <title>개인정보 처리방침</title>
       </Head>
 
-      <CustomCol size={size} style={{ background: '#FBF7F2', height: 'auto' }}>
+      <CustomCol size={size} style={{ background: '#F7F8FA', height: 'auto' }}>
         <Col xs={size.in.center.mx} sm={size.in.center.sm} md={size.in.center.md} align="left">
           <PrivacyText />
         </Col>

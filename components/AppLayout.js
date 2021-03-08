@@ -8,8 +8,8 @@ import CustomCol from './CustomCol';
 
 const url = {
   main: 'https://www.terminal-study.tk/main',
-  appStore: 'https://apps.apple.com/kr/app/pangyojangteo/id1018769995?l=ko&ls=1',
-  playStore: 'https://play.google.com/store/apps/details?id=com.towneers.www',
+  appStore: 'https://apps.apple.com/us/app/id1557178596',
+  playStore: 'https://play.google.com/store',
   github: 'https://github.com/iron-mental',
   mail: 'team.ironmental@gmail.com',
   terms: 'https://www.terminal-study.tk/terms',
@@ -17,9 +17,8 @@ const url = {
 };
 
 const image = {
-  logo:
-    'https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/logo-basic-24b18257ac4ef693c02233bf21e9cb7ecbf43ebd8d5b40c24d99e14094a44c81.svg',
-  favicon: '',
+  logo: '/web/logo.png',
+  logo_info: '/web/logo_info.png',
 };
 
 const size = {

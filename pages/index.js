@@ -39,7 +39,7 @@ const Home = () => {
         <title>Terminal</title>
       </Head>
 
-      <CustomCol size={size} style={{ background: '#FBF7F2', height: '600px' }}>
+      <CustomCol size={size} style={{ background: '#F2F3FA', height: '600px' }}>
         <FirstWebView size={size} />
         <FirstMobileView />
       </CustomCol>

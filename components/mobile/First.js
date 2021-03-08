@@ -18,7 +18,7 @@ const FirstMobileView = () => {
         함께 성장하는 스터디를 만들어 보세요.
         <br />
       </font>
-      <img src="/web/mobile/category.JPG" style={{ width: '200px', height: '342px', marginTop: '62px' }} />
+      <img src="/web/mobile/first.PNG" style={{ width: '200px', height: '342px', marginTop: '62px' }} />
     </Col>
   );
 };

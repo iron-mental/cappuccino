@@ -6,10 +6,10 @@ const MenuLayout = ({ url, size, image }) => {
   return (
     <Col xs={24} sm={24} md={size.in.center.md} style={{ align: 'center' }}>
       <Menu mode="horizontal" style={{ marginTop: '5px', marginBottom: '10px' }}>
-        <Menu.Item key="home" style={{ float: 'centerVertical' }}>
+        <Menu.Item key="home" style={{ marginTop: '5px', float: 'centerVertical' }}>
           <Link href={url.main}>
             <a>
-              <img src={image.logo} width="100px" height="60px" />
+              <img src={image.logo} width="60px" height="40px" />
             </a>
           </Link>
         </Menu.Item>
