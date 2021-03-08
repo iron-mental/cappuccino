@@ -18,6 +18,7 @@ const url = {
 
 const image = {
   logo: '/web/logo.png',
+  logo_info: '/web/logo_info.png',
 };
 
 const size = {
