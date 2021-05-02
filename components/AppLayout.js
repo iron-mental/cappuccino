@@ -7,13 +7,13 @@ import InfoLayout from './InfoLayout';
 import CustomCol from './CustomCol';
 
 const url = {
-  main: 'https://www.terminal-study.tk/main',
+  main: 'https://www.terminal-study.site/main',
   appStore: 'https://apps.apple.com/app/id1557178596',
   playStore: 'https://play.google.com/store',
   github: 'https://github.com/iron-mental',
   mail: 'team.ironmental@gmail.com',
-  terms: 'https://www.terminal-study.tk/terms',
-  privacy: 'https://www.terminal-study.tk/privacy',
+  terms: 'https://www.terminal-study.site/terms',
+  privacy: 'https://www.terminal-study.site/privacy',
 };
 
 const image = {
