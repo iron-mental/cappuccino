@@ -9,7 +9,7 @@ import CustomCol from './CustomCol';
 const url = {
   main: 'https://www.terminal-study.site/main',
   appStore: 'https://apps.apple.com/app/id1557178596',
-  playStore: 'https://play.google.com/store',
+  playStore: 'https://play.google.com/store/apps/details?id=com.iron.espresso',
   github: 'https://github.com/iron-mental',
   mail: 'team.ironmental@gmail.com',
   terms: 'https://www.terminal-study.site/terms',
